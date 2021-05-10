@@ -1,0 +1,29 @@
+.categories{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: gray;
+}
+span {
+    font-weight: 100;
+}
+.textCover{
+    height: 24rem;
+    z-index: 9;
+position: absolute;
+background:linear-gradient(180deg, rgba(255,255,255,.6) 0%, rgba(255,255,255,0) 100%);
+}
+.imgCover{
+height: 24rem;
+object-fit: cover;
+}
+
+@media (min-width: 700px) { 
+
+    .textCover{
+        height: 100%;
+        z-index: 9;
+    position: relative;
+    background:none;
+    }
+}
